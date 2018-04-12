@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/material-icons/MaterialIcons-Regular.eot');
+  src: local('Material Icons'), local('MaterialIcons-Regular'),
+    url('/fonts/material-icons/MaterialIcons-Regular.woff2') format('woff2'),
+    url('/fonts/material-icons/MaterialIcons-Regular.woff') format('woff'),
+    url('/fonts/material-icons/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+.material-icons {
+  direction: ltr;
+  display: inline-block;
+  font-family: 'Material Icons';
+  font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  height: 1em;
+  letter-spacing: normal;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  white-space: nowrap;
+  width: 1em;
+  word-wrap: normal;
+}
+
+.big {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  background: url('../styles/img/lily-nyama.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* main {
+  background: url('../styles/img/lily-nyama.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+} */
+
+.App {
+  position: relative;
+  background: white;
+  height: 200px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+}
+
+.auth-block {
+  /* position: absolute;
+  padding: 1rem 1rem;
+  width: 100%;
+  margin: 20% auto;
+  max-width: 466px; */
+  /* width: 200px;
+  height: 100px; */
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 25%;
+  height: 50%;
+  margin: -15rem 0 0 -14rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  border-radius: 0.3em;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
